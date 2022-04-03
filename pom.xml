@@ -27,11 +27,13 @@
           <descriptorRefs>
             <descriptorRef>jar-with-dependencies</descriptorRef>
           </descriptorRefs>
+          <!--
           <archive>
             <manifest>
               <mainClass>com.github.tamurashingo.lwjgl.sample.HelloWorld</mainClass>
             </manifest>
           </archive>
+          -->
         </configuration>
         <executions>
           <execution>
