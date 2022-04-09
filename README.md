@@ -13,14 +13,14 @@ mvn package
 ### run
 
 ```
-java -cp target/lwjgl-sample-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.github.tamurashingo.lwjgl.sample.HelloWorld2
+java -cp target/lwjgl-sample-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.github.tamurashingo.lwjgl.sample.HelloWorld3
 ```
 
 
 run on mac
 
 ```
-java -XstartOnFirstThread -cp target/lwjgl-sample-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.github.tamurashingo.lwjgl.sample.HelloWorld2
+java -XstartOnFirstThread -cp target/lwjgl-sample-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.github.tamurashingo.lwjgl.sample.HelloWorld3
 ```
 
 ![third-sample](images/third-sample.png)
