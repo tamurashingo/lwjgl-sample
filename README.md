@@ -1,5 +1,35 @@
 # lwjgl-sample
 
+## 4th sample
+
+create a mesh.
+
+https://lwjglgamedev.gitbooks.io/3d-game-development-with-lwjgl/content/chapter05/chapter5.html
+
+### buile
+
+### run
+
+```
+mvn package
+```
+
+### run
+
+```
+java -cp target/lwjgl-sample-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.github.tamurashingo.lwjgl.sample.HelloWorld4
+```
+
+
+run on mac
+
+```
+java -XstartOnFirstThread -cp target/lwjgl-sample-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.github.tamurashingo.lwjgl.sample.HelloWorld4
+```
+
+![4th-sample](images/4th-sample.png)
+
+
 ## third sample
 
 create a triangle with vertex shader and fragment shader.
