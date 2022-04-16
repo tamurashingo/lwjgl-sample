@@ -12,6 +12,7 @@
   <properties>
     <lwjgl.version>3.3.1</lwjgl.version>
     <lwjgl.natives>natives-macos</lwjgl.natives>
+    <joml.version>1.10.4</joml.version>
     <maven.compiler.source>12</maven.compiler.source>
     <maven.compiler.target>12</maven.compiler.target>
   </properties>
@@ -386,6 +387,11 @@
     <groupId>org.lwjgl</groupId>
     <artifactId>lwjgl-zstd</artifactId>
     <classifier>${lwjgl.natives}</classifier>
+  </dependency>
+  <dependency>
+    <groupId>org.joml</groupId>
+    <artifactId>joml</artifactId>
+    <version>${joml.version}</version>
   </dependency>
   </dependencies>
 
